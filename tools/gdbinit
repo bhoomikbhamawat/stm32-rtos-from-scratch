@@ -1,0 +1,120 @@
+# tools/gdbinit - interactive debugging (`make debug` in one terminal, `make gdb` in another)
+#
+# Extra commands defined here:
+#   cs      context-switch benchmark results (XX / YY)
+#   tasks   task table: priority, state, switch-in count, stack pointer
+#   imu     IMU status + latest attitude
+#   fault   decode the crash record (this boot, or the previous boot)
+set pagination off
+set confirm off
+set print pretty on
+
+target extended-remote :3333
+monitor reset halt
+load
+monitor reset halt
+
+define cs
+  printf "samples=%u done=%u dwt_ok=%u fpu=%u calib=%u sched_o1=%u load=%u (irqs=%u ticks=%u skipped=%u)\n", g_cs.count, g_cs.done, g_cs.dwt_ok, g_cs.fpu_frames, g_cs.calib, g_cs.sched_o1, g_cs.load_mode, g_cs.load_irqs, g_cs.ticks, g_cs.skipped
+  printf "AVG (XX) = %u.%02u cycles (%u ns)\n", g_cs.avg_x100 / 100, g_cs.avg_x100 % 100, g_cs.avg_ns
+  printf "MAX (YY) = %u cycles (%u ns), min = %u\n", g_cs.max, g_cs.max_ns, g_cs.min
+end
+
+define tasks
+  set $i = 0
+  printf "id name      prio base state switches  sp\n"
+  while $i < s_task_count
+    printf "%2u %-9s %4u %4u %5u %8u  0x%08x\n", s_tasks[$i].id, s_tasks[$i].name, s_tasks[$i].prio, s_tasks[$i].base_prio, s_tasks[$i].state, s_tasks[$i].switch_in_count, s_tasks[$i].sp
+    set $i = $i + 1
+  end
+  printf "state: 0=unused/exited 1=ready 2=sleeping 3=blocked\n"
+end
+
+define imu
+  p g_imu
+  p g_attitude
+  p g_i2c_stats
+end
+
+define _decode_cfsr
+  set $c = $arg0
+  if ($c & (1 << 0))
+    echo   MMFSR.IACCVIOL   instruction fetch from a no-execute / protected region\n
+  end
+  if ($c & (1 << 1))
+    echo   MMFSR.DACCVIOL   data access violation (see MMFAR)\n
+  end
+  if ($c & (1 << 4))
+    echo   MMFSR.MSTKERR    MPU fault while stacking (stack overflow?)\n
+  end
+  if ($c & (1 << 7))
+    echo   MMFSR.MMARVALID  MMFAR holds the faulting address\n
+  end
+  if ($c & (1 << 8))
+    echo   BFSR.IBUSERR     instruction bus error\n
+  end
+  if ($c & (1 << 9))
+    echo   BFSR.PRECISERR   precise data bus error (see BFAR)\n
+  end
+  if ($c & (1 << 10))
+    echo   BFSR.IMPRECISERR imprecise data bus error (PC is NOT exact)\n
+  end
+  if ($c & (1 << 11))
+    echo   BFSR.UNSTKERR    bus fault on exception return unstacking\n
+  end
+  if ($c & (1 << 12))
+    echo   BFSR.STKERR      bus fault while stacking (stack overflow?)\n
+  end
+  if ($c & (1 << 15))
+    echo   BFSR.BFARVALID   BFAR holds the faulting address\n
+  end
+  if ($c & (1 << 16))
+    echo   UFSR.UNDEFINSTR  undefined instruction\n
+  end
+  if ($c & (1 << 17))
+    echo   UFSR.INVSTATE    invalid state (branched to an address with bit0 = 0?)\n
+  end
+  if ($c & (1 << 18))
+    echo   UFSR.INVPC       invalid EXC_RETURN / PC load\n
+  end
+  if ($c & (1 << 19))
+    echo   UFSR.NOCP        FPU used while disabled (CPACR)\n
+  end
+  if ($c & (1 << 24))
+    echo   UFSR.UNALIGNED   unaligned access trap\n
+  end
+  if ($c & (1 << 25))
+    echo   UFSR.DIVBYZERO   integer divide by zero\n
+  end
+end
+
+define _print_fault
+  printf "exception %u (3=HardFault 4=MemManage 5=BusFault 6=UsageFault) in task '%s'\n", $arg0.exception, $arg0.task_name
+  printf "PC=0x%08x LR=0x%08x xPSR=0x%08x SP=0x%08x EXC_RETURN=0x%08x\n", $arg0.pc, $arg0.lr, $arg0.xpsr, $arg0.sp, $arg0.exc_return
+  printf "R0=0x%08x R1=0x%08x R2=0x%08x R3=0x%08x R12=0x%08x\n", $arg0.r0, $arg0.r1, $arg0.r2, $arg0.r3, $arg0.r12
+  printf "CFSR=0x%08x HFSR=0x%08x MMFAR=0x%08x BFAR=0x%08x\n", $arg0.cfsr, $arg0.hfsr, $arg0.mmfar, $arg0.bfar
+  _decode_cfsr $arg0.cfsr
+  if ($arg0.hfsr & (1 << 30))
+    echo   HFSR.FORCED      escalated from a configurable fault\n
+  end
+  echo faulting line (PC):\n
+  info line *$arg0.pc
+  echo caller (LR):\n
+  info line *$arg0.lr
+end
+
+define fault
+  if g_fault.magic == 0xFA017EC0
+    echo === fault in THIS boot ===\n
+    _print_fault g_fault
+  else
+    if g_last_boot_fault.magic == 0xFA017EC0
+      echo === fault from the PREVIOUS boot (reset afterwards) ===\n
+      _print_fault g_last_boot_fault
+    else
+      echo no fault recorded\n
+    end
+  end
+end
+
+echo \nReady. 'continue' to run; Ctrl-C then: cs | tasks | imu | fault\n

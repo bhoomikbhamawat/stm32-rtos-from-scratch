@@ -1,0 +1,943 @@
+Archive member included to satisfy reference by file (symbol)
+
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_atan2.o)
+                              build/src/main.o (atan2f)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_sqrt.o)
+                              build/src/main.o (sqrtf)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o)
+                              /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_atan2.o) (__ieee754_atan2f)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+                              /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_sqrt.o) (__ieee754_sqrtf)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_atan.o)
+                              /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o) (atanf)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+                              /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o) (fabsf)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              build/src/cs_bench.o (__aeabi_uldivmod)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                              build/src/fault.o (memset)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
+                              /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_sqrt.o) (__errno)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+                              /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o) (_impure_ptr)
+/Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+                              build/src/fault.o (memcpy)
+
+Discarded input sections
+
+ .group         0x00000000        0xc build/startup/startup_stm32f407.o
+ .group         0x00000000        0xc build/startup/startup_stm32f407.o
+ .group         0x00000000        0xc build/startup/startup_stm32f407.o
+ .text          0x00000000        0x0 build/startup/startup_stm32f407.o
+ .data          0x00000000        0x0 build/startup/startup_stm32f407.o
+ .bss           0x00000000        0x0 build/startup/startup_stm32f407.o
+ .group         0x00000000        0xc build/src/board.o
+ .group         0x00000000        0xc build/src/board.o
+ .group         0x00000000        0xc build/src/board.o
+ .group         0x00000000        0xc build/src/board.o
+ .text          0x00000000        0x0 build/src/board.o
+ .data          0x00000000        0x0 build/src/board.o
+ .bss           0x00000000        0x0 build/src/board.o
+ .debug_macro   0x00000000      0xafc build/src/board.o
+ .debug_macro   0x00000000      0x34e build/src/board.o
+ .debug_macro   0x00000000      0x28b build/src/board.o
+ .group         0x00000000        0xc build/src/clock.o
+ .group         0x00000000        0xc build/src/clock.o
+ .group         0x00000000        0xc build/src/clock.o
+ .text          0x00000000        0x0 build/src/clock.o
+ .data          0x00000000        0x0 build/src/clock.o
+ .bss           0x00000000        0x0 build/src/clock.o
+ .debug_macro   0x00000000      0xafc build/src/clock.o
+ .debug_macro   0x00000000      0x34e build/src/clock.o
+ .debug_macro   0x00000000      0x28b build/src/clock.o
+ .group         0x00000000        0xc build/src/cs_bench.o
+ .group         0x00000000        0xc build/src/cs_bench.o
+ .group         0x00000000        0xc build/src/cs_bench.o
+ .group         0x00000000        0xc build/src/cs_bench.o
+ .group         0x00000000        0xc build/src/cs_bench.o
+ .group         0x00000000        0xc build/src/cs_bench.o
+ .text          0x00000000        0x0 build/src/cs_bench.o
+ .data          0x00000000        0x0 build/src/cs_bench.o
+ .bss           0x00000000        0x0 build/src/cs_bench.o
+ .debug_macro   0x00000000      0xafc build/src/cs_bench.o
+ .debug_macro   0x00000000      0x34e build/src/cs_bench.o
+ .debug_macro   0x00000000      0x28b build/src/cs_bench.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .group         0x00000000        0xc build/src/fault.o
+ .text          0x00000000        0x0 build/src/fault.o
+ .data          0x00000000        0x0 build/src/fault.o
+ .bss           0x00000000        0x0 build/src/fault.o
+ .text.fault_trigger_test
+                0x00000000       0x40 build/src/fault.o
+ .debug_macro   0x00000000      0xafc build/src/fault.o
+ .debug_macro   0x00000000      0x34e build/src/fault.o
+ .debug_macro   0x00000000      0x28b build/src/fault.o
+ .debug_macro   0x00000000      0x190 build/src/fault.o
+ .debug_macro   0x00000000       0x52 build/src/fault.o
+ .group         0x00000000        0xc build/src/i2c.o
+ .group         0x00000000        0xc build/src/i2c.o
+ .group         0x00000000        0xc build/src/i2c.o
+ .group         0x00000000        0xc build/src/i2c.o
+ .group         0x00000000        0xc build/src/i2c.o
+ .text          0x00000000        0x0 build/src/i2c.o
+ .data          0x00000000        0x0 build/src/i2c.o
+ .bss           0x00000000        0x0 build/src/i2c.o
+ .debug_macro   0x00000000      0xafc build/src/i2c.o
+ .debug_macro   0x00000000      0x34e build/src/i2c.o
+ .debug_macro   0x00000000      0x28b build/src/i2c.o
+ .debug_macro   0x00000000      0x190 build/src/i2c.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .text          0x00000000        0x0 build/src/main.o
+ .data          0x00000000        0x0 build/src/main.o
+ .bss           0x00000000        0x0 build/src/main.o
+ .debug_macro   0x00000000      0xafc build/src/main.o
+ .debug_macro   0x00000000       0x22 build/src/main.o
+ .debug_macro   0x00000000       0x75 build/src/main.o
+ .debug_macro   0x00000000       0x2a build/src/main.o
+ .debug_macro   0x00000000       0x5c build/src/main.o
+ .debug_macro   0x00000000       0x3c build/src/main.o
+ .debug_macro   0x00000000       0x34 build/src/main.o
+ .debug_macro   0x00000000      0x190 build/src/main.o
+ .debug_macro   0x00000000       0x73 build/src/main.o
+ .debug_macro   0x00000000      0x364 build/src/main.o
+ .debug_macro   0x00000000       0x16 build/src/main.o
+ .debug_macro   0x00000000       0x4a build/src/main.o
+ .debug_macro   0x00000000       0x34 build/src/main.o
+ .debug_macro   0x00000000       0x10 build/src/main.o
+ .debug_macro   0x00000000       0x58 build/src/main.o
+ .debug_macro   0x00000000      0x1e5 build/src/main.o
+ .debug_macro   0x00000000      0x34e build/src/main.o
+ .debug_macro   0x00000000       0x22 build/src/main.o
+ .debug_macro   0x00000000       0x52 build/src/main.o
+ .group         0x00000000        0xc build/src/mpu6050.o
+ .group         0x00000000        0xc build/src/mpu6050.o
+ .group         0x00000000        0xc build/src/mpu6050.o
+ .group         0x00000000        0xc build/src/mpu6050.o
+ .group         0x00000000        0xc build/src/mpu6050.o
+ .text          0x00000000        0x0 build/src/mpu6050.o
+ .data          0x00000000        0x0 build/src/mpu6050.o
+ .bss           0x00000000        0x0 build/src/mpu6050.o
+ .debug_macro   0x00000000      0xafc build/src/mpu6050.o
+ .debug_macro   0x00000000      0x34e build/src/mpu6050.o
+ .debug_macro   0x00000000       0x28 build/src/mpu6050.o
+ .debug_macro   0x00000000      0x190 build/src/mpu6050.o
+ .group         0x00000000        0xc build/src/os_sync.o
+ .group         0x00000000        0xc build/src/os_sync.o
+ .group         0x00000000        0xc build/src/os_sync.o
+ .group         0x00000000        0xc build/src/os_sync.o
+ .text          0x00000000        0x0 build/src/os_sync.o
+ .data          0x00000000        0x0 build/src/os_sync.o
+ .bss           0x00000000        0x0 build/src/os_sync.o
+ .debug_macro   0x00000000      0xafc build/src/os_sync.o
+ .debug_macro   0x00000000      0x34e build/src/os_sync.o
+ .debug_macro   0x00000000      0x190 build/src/os_sync.o
+ .debug_macro   0x00000000       0x52 build/src/os_sync.o
+ .group         0x00000000        0xc build/src/os.o
+ .group         0x00000000        0xc build/src/os.o
+ .group         0x00000000        0xc build/src/os.o
+ .group         0x00000000        0xc build/src/os.o
+ .group         0x00000000        0xc build/src/os.o
+ .text          0x00000000        0x0 build/src/os.o
+ .data          0x00000000        0x0 build/src/os.o
+ .bss           0x00000000        0x0 build/src/os.o
+ .text.os_tick_suspend
+                0x00000000       0x1c build/src/os.o
+ .text.os_tick_resume
+                0x00000000       0x10 build/src/os.o
+ .debug_macro   0x00000000      0xafc build/src/os.o
+ .debug_macro   0x00000000      0x34e build/src/os.o
+ .debug_macro   0x00000000      0x190 build/src/os.o
+ .debug_macro   0x00000000       0x52 build/src/os.o
+ .debug_macro   0x00000000      0x28b build/src/os.o
+ .text          0x00000000        0x0 build/src/os_port.o
+ .data          0x00000000        0x0 build/src/os_port.o
+ .bss           0x00000000        0x0 build/src/os_port.o
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_atan2.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_atan2.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_atan2.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_sqrt.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_sqrt.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_sqrt.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_atan.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_atan.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_atan.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab.text.__udivmoddi4
+                0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00020000         xrw
+CCMRAM           0x10000000         0x00010000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/startup/startup_stm32f407.o
+LOAD build/src/board.o
+LOAD build/src/clock.o
+LOAD build/src/cs_bench.o
+LOAD build/src/fault.o
+LOAD build/src/i2c.o
+LOAD build/src/main.o
+LOAD build/src/mpu6050.o
+LOAD build/src/os_sync.o
+LOAD build/src/os.o
+LOAD build/src/os_port.o
+LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+                0x20020000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00001000                        _Min_Stack_Size = 0x1000
+
+.isr_vector     0x08000000      0x188
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 build/startup/startup_stm32f407.o
+                0x08000000                g_vector_table
+                0x08000188                        . = ALIGN (0x4)
+
+.text           0x08000188     0x1f60
+                0x08000188                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000188       0x30 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x08000188                __aeabi_uldivmod
+ .text          0x080001b8        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x080001b8                __aeabi_ldiv0
+                0x080001b8                __aeabi_idiv0
+ *(.text*)
+ .text.Default_Handler
+                0x080001bc        0x4 build/startup/startup_stm32f407.o
+                0x080001bc                DebugMon_Handler
+                0x080001bc                NMI_Handler
+                0x080001bc                Default_Handler
+ .text.Reset_Handler
+                0x080001c0       0x78 build/startup/startup_stm32f407.o
+                0x080001c0                Reset_Handler
+ .text.board_leds_init
+                0x08000238       0x5c build/src/board.o
+                0x08000238                board_leds_init
+ .text.led_on   0x08000294       0x10 build/src/board.o
+                0x08000294                led_on
+ .text.led_off  0x080002a4       0x10 build/src/board.o
+                0x080002a4                led_off
+ .text.led_toggle
+                0x080002b4       0x18 build/src/board.o
+                0x080002b4                led_toggle
+ .text.clock_init_168mhz
+                0x080002cc       0xc4 build/src/clock.o
+                0x080002cc                clock_init_168mhz
+ .text.TIM2_IRQHandler
+                0x08000390       0x1c build/src/cs_bench.o
+                0x08000390                TIM2_IRQHandler
+ .text.cs_bench_complete
+                0x080003ac        0x4 build/src/cs_bench.o
+                0x080003ac                cs_bench_complete
+ .text.bench_task
+                0x080003b0      0x280 build/src/cs_bench.o
+ .text.cs_bench_create_tasks
+                0x08000630       0xac build/src/cs_bench.o
+                0x08000630                cs_bench_create_tasks
+ .text.fault_init
+                0x080006dc       0x18 build/src/fault.o
+                0x080006dc                fault_init
+ .text.fault_check_previous_boot
+                0x080006f4       0x38 build/src/fault.o
+                0x080006f4                fault_check_previous_boot
+ .text.fault_handler_c
+                0x0800072c       0xcc build/src/fault.o
+                0x0800072c                fault_handler_c
+ .text.HardFault_Handler
+                0x080007f8       0x14 build/src/fault.o
+                0x080007f8                HardFault_Handler
+                0x080007f8                UsageFault_Handler
+                0x080007f8                MemManage_Handler
+                0x080007f8                BusFault_Handler
+ .text.wait_sr1
+                0x0800080c       0x4c build/src/i2c.o
+ .text.i2c1_init
+                0x08000858      0x160 build/src/i2c.o
+                0x08000858                i2c1_init
+ .text.fail     0x080009b8       0x5c build/src/i2c.o
+ .text.i2c1_write_reg
+                0x08000a14       0x98 build/src/i2c.o
+                0x08000a14                i2c1_write_reg
+ .text.i2c1_read_regs
+                0x08000aac      0x1dc build/src/i2c.o
+                0x08000aac                i2c1_read_regs
+ .text.stats_task
+                0x08000c88       0x60 build/src/main.o
+ .text.proc_task
+                0x08000ce8      0x1b0 build/src/main.o
+ .text.delay_ms
+                0x08000e98       0x18 build/src/main.o
+ .text.imu_task
+                0x08000eb0      0x10c build/src/main.o
+ .text.startup.main
+                0x08000fbc       0xd4 build/src/main.o
+                0x08000fbc                main
+ .text.mpu6050_init
+                0x08001090       0xa8 build/src/mpu6050.o
+                0x08001090                mpu6050_init
+ .text.mpu6050_read_if_ready
+                0x08001138       0x6c build/src/mpu6050.o
+                0x08001138                mpu6050_read_if_ready
+ .text.os_sem_init
+                0x080011a4        0x8 build/src/os_sync.o
+                0x080011a4                os_sem_init
+ .text.os_sem_take
+                0x080011ac       0x44 build/src/os_sync.o
+                0x080011ac                os_sem_take
+ .text.os_sem_give
+                0x080011f0       0x58 build/src/os_sync.o
+                0x080011f0                os_sem_give
+ .text.os_mutex_init
+                0x08001248        0x8 build/src/os_sync.o
+                0x08001248                os_mutex_init
+ .text.os_mutex_lock
+                0x08001250       0x80 build/src/os_sync.o
+                0x08001250                os_mutex_lock
+ .text.os_mutex_unlock
+                0x080012d0       0x64 build/src/os_sync.o
+                0x080012d0                os_mutex_unlock
+ .text.rq_remove
+                0x08001334       0x54 build/src/os.o
+ .text.idle_task
+                0x08001388        0x4 build/src/os.o
+ .text.os_init  0x0800138c       0x68 build/src/os.o
+                0x0800138c                os_init
+ .text.os_task_set_state
+                0x080013f4       0x60 build/src/os.o
+                0x080013f4                os_task_set_state
+ .text.os_task_create
+                0x08001454      0x114 build/src/os.o
+                0x08001454                os_task_create
+ .text.os_task_exit
+                0x08001568       0x30 build/src/os.o
+ .text.os_task_set_prio
+                0x08001598       0x5c build/src/os.o
+                0x08001598                os_task_set_prio
+ .text.os_sched_select
+                0x080015f4       0x8c build/src/os.o
+                0x080015f4                os_sched_select
+ .text.os_request_switch
+                0x08001680       0x18 build/src/os.o
+                0x08001680                os_request_switch
+ .text.os_yield
+                0x08001698       0x18 build/src/os.o
+                0x08001698                os_yield
+ .text.os_ticks
+                0x080016b0        0xc build/src/os.o
+                0x080016b0                os_ticks
+ .text.os_delay
+                0x080016bc       0x6c build/src/os.o
+                0x080016bc                os_delay
+ .text.os_delay_until
+                0x08001728       0x6c build/src/os.o
+                0x08001728                os_delay_until
+ .text.os_block_current
+                0x08001794       0x70 build/src/os.o
+                0x08001794                os_block_current
+ .text.os_highest_waiter
+                0x08001804       0x68 build/src/os.o
+                0x08001804                os_highest_waiter
+ .text.SysTick_Handler
+                0x0800186c       0xbc build/src/os.o
+                0x0800186c                SysTick_Handler
+ .text.os_start
+                0x08001928       0xa0 build/src/os.o
+                0x08001928                os_start
+ .text.PendSV_Handler
+                0x080019c8       0x40 build/src/os_port.o
+                0x080019c8                PendSV_Handler
+ .text.SVC_Handler
+                0x08001a08       0x20 build/src/os_port.o
+                0x08001a08                SVC_Handler
+ .text.atan2f   0x08001a28        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_atan2.o)
+                0x08001a28                atan2f
+ .text.sqrtf    0x08001a2c       0x50 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_sqrt.o)
+                0x08001a2c                sqrtf
+ .text.__ieee754_atan2f
+                0x08001a7c      0x144 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o)
+                0x08001a7c                __ieee754_atan2f
+ .text.__ieee754_sqrtf
+                0x08001bc0        0x8 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+                0x08001bc0                __ieee754_sqrtf
+ .text.atanf    0x08001bc8      0x1b8 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_atan.o)
+                0x08001bc8                atanf
+ .text.fabsf    0x08001d80       0x10 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+                0x08001d80                fabsf
+ .text.__udivmoddi4
+                0x08001d90      0x320 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x08001d90                __udivmoddi4
+ .text.memset   0x080020b0       0x10 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                0x080020b0                memset
+ .text.__errno  0x080020c0        0xc /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
+                0x080020c0                __errno
+ .text.memcpy   0x080020cc       0x1c /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+                0x080020cc                memcpy
+ *(.glue_7)
+ .glue_7        0x080020e8        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080020e8        0x0 linker stubs
+ *(.init)
+ *(.fini)
+                0x080020e8                        . = ALIGN (0x4)
+                0x080020e8                        _etext = .
+
+.vfp11_veneer   0x080020e8        0x0
+ .vfp11_veneer  0x080020e8        0x0 linker stubs
+
+.v4_bx          0x080020e8        0x0
+ .v4_bx         0x080020e8        0x0 linker stubs
+
+.iplt           0x080020e8        0x0
+ .iplt          0x080020e8        0x0 build/startup/startup_stm32f407.o
+
+.rodata         0x080020e8       0x74
+                0x080020e8                        . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.cs_bench_create_tasks.str1.4
+                0x080020e8       0x39 build/src/cs_bench.o
+                                 0x10 (size before relaxing)
+ .rodata.fault_handler_c.str1.4
+                0x08002121        0x0 build/src/fault.o
+                                  0xd (size before relaxing)
+ .rodata.main.str1.4
+                0x08002121        0x0 build/src/main.o
+                                 0x12 (size before relaxing)
+ .rodata.os_start.str1.4
+                0x08002121        0x0 build/src/os.o
+                                  0x5 (size before relaxing)
+ *fill*         0x08002121        0x3 
+ .rodata.CSWTCH.7
+                0x08002124        0xc /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o)
+ .rodata.CSWTCH.6
+                0x08002130        0xc /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o)
+ .rodata.atanlo
+                0x0800213c       0x10 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_atan.o)
+ .rodata.atanhi
+                0x0800214c       0x10 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_atan.o)
+                0x0800215c                        . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x0800215c        0x8
+                0x0800215c                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx.text.__udivmoddi4
+                0x0800215c        0x8 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x08002164                        __exidx_end = .
+                0x08002164                        _sidata = LOADADDR (.data)
+
+.rel.dyn        0x08002164        0x0
+ .rel.iplt      0x08002164        0x0 build/startup/startup_stm32f407.o
+
+.data           0x20000000       0x58 load address 0x08002164
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.g_pclk1_hz
+                0x20000000        0x4 build/src/clock.o
+                0x20000000                g_pclk1_hz
+ .data.SystemCoreClock
+                0x20000004        0x4 build/src/clock.o
+                0x20000004                SystemCoreClock
+ .data._impure_ptr
+                0x20000008        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+                0x20000008                _impure_ptr
+ .data._impure_data
+                0x2000000c       0x4c /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+                0x2000000c                _impure_data
+                0x20000058                        . = ALIGN (0x4)
+                0x20000058                        _edata = .
+
+.igot.plt       0x20000058        0x0 load address 0x080021bc
+ .igot.plt      0x20000058        0x0 build/startup/startup_stm32f407.o
+
+.bss            0x20000058     0x2148 load address 0x080021bc
+                0x20000058                        . = ALIGN (0x4)
+                0x20000058                        _sbss = .
+                0x20000058                        __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.g_clock_hse_failed
+                0x20000058        0x4 build/src/clock.o
+                0x20000058                g_clock_hse_failed
+ .bss.s_tick0   0x2000005c        0x4 build/src/cs_bench.o
+ .bss.s_yielder
+                0x20000060        0x4 build/src/cs_bench.o
+ .bss.s_finished
+                0x20000064        0x4 build/src/cs_bench.o
+ .bss.s_armed   0x20000068        0x4 build/src/cs_bench.o
+ .bss.s_arrived
+                0x2000006c        0x4 build/src/cs_bench.o
+ .bss.s_t_yield
+                0x20000070        0x4 build/src/cs_bench.o
+ *fill*         0x20000074        0x4 
+ .bss.s_stack_b
+                0x20000078      0x400 build/src/cs_bench.o
+ .bss.s_stack_a
+                0x20000478      0x400 build/src/cs_bench.o
+ .bss.g_cs      0x20000878       0x58 build/src/cs_bench.o
+                0x20000878                g_cs
+ .bss.g_last_boot_fault
+                0x200008d0       0x48 build/src/fault.o
+                0x200008d0                g_last_boot_fault
+ .bss.g_i2c_stats
+                0x20000918       0x14 build/src/i2c.o
+                0x20000918                g_i2c_stats
+ *fill*         0x2000092c        0x4 
+ .bss.s_stack_stats
+                0x20000930      0x400 build/src/main.o
+ .bss.s_stack_proc
+                0x20000d30      0x800 build/src/main.o
+ .bss.s_stack_imu
+                0x20001530      0x800 build/src/main.o
+ .bss.g_prev_boot_faulted
+                0x20001d30        0x4 build/src/main.o
+                0x20001d30                g_prev_boot_faulted
+ .bss.g_uptime_s
+                0x20001d34        0x4 build/src/main.o
+                0x20001d34                g_uptime_s
+ .bss.g_heartbeat
+                0x20001d38        0x4 build/src/main.o
+                0x20001d38                g_heartbeat
+ .bss.g_attitude
+                0x20001d3c       0x28 build/src/main.o
+                0x20001d3c                g_attitude
+ .bss.g_imu     0x20001d64       0x1c build/src/main.o
+                0x20001d64                g_imu
+ .bss.s_sample_sem
+                0x20001d80        0x8 build/src/main.o
+ .bss.s_sample_mutex
+                0x20001d88        0x4 build/src/main.o
+ .bss.s_latest  0x20001d8c       0x18 build/src/main.o
+ .bss.os_started
+                0x20001da4        0x4 build/src/os.o
+                0x20001da4                os_started
+ .bss.os_curr   0x20001da8        0x4 build/src/os.o
+                0x20001da8                os_curr
+ *fill*         0x20001dac        0x4 
+ .bss.s_idle_stack
+                0x20001db0      0x200 build/src/os.o
+ .bss.s_tick    0x20001fb0        0x4 build/src/os.o
+ *fill*         0x20001fb4        0x4 
+ .bss.s_ready_head
+                0x20001fb8       0x80 build/src/os.o
+ .bss.s_ready_bitmap
+                0x20002038        0x4 build/src/os.o
+ .bss.s_task_count
+                0x2000203c        0x4 build/src/os.o
+ .bss.s_tasks   0x20002040      0x160 build/src/os.o
+ *(COMMON)
+                0x200021a0                        . = ALIGN (0x4)
+                0x200021a0                        _ebss = .
+                0x200021a0                        __bss_end__ = _ebss
+
+.noinit         0x200021a0       0x48 load address 0x080021bc
+                0x200021a0                        . = ALIGN (0x4)
+ *(.noinit)
+ .noinit        0x200021a0       0x48 build/src/fault.o
+                0x200021a0                g_fault
+ *(.noinit*)
+                0x200021e8                        . = ALIGN (0x4)
+
+.ccmram         0x10000000     0x4e20
+                0x10000000                        . = ALIGN (0x4)
+ *(.ccmram)
+ .ccmram        0x10000000     0x4e20 build/src/cs_bench.o
+                0x10000000                g_cs_samples
+ *(.ccmram*)
+                0x10004e20                        . = ALIGN (0x4)
+                0x10004e20                        . = ALIGN (0x8)
+                0x10004e20                        end = .
+                0x10004e20                        _end = .
+
+._msp_check     0x200021e8     0x1000
+                0x200021e8                        . = ALIGN (0x8)
+                0x200031e8                        . = (. + _Min_Stack_Size)
+ *fill*         0x200021e8     0x1000 
+                0x200031e8                        . = ALIGN (0x8)
+
+.ARM.attributes
+                0x00000000       0x32
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/startup/startup_stm32f407.o
+ .ARM.attributes
+                0x00000034       0x34 build/src/board.o
+ .ARM.attributes
+                0x00000068       0x34 build/src/clock.o
+ .ARM.attributes
+                0x0000009c       0x34 build/src/cs_bench.o
+ .ARM.attributes
+                0x000000d0       0x34 build/src/fault.o
+ .ARM.attributes
+                0x00000104       0x34 build/src/i2c.o
+ .ARM.attributes
+                0x00000138       0x34 build/src/main.o
+ .ARM.attributes
+                0x0000016c       0x34 build/src/mpu6050.o
+ .ARM.attributes
+                0x000001a0       0x34 build/src/os_sync.o
+ .ARM.attributes
+                0x000001d4       0x34 build/src/os.o
+ .ARM.attributes
+                0x00000208       0x25 build/src/os_port.o
+ .ARM.attributes
+                0x0000022d       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_atan2.o)
+ .ARM.attributes
+                0x00000261       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_sqrt.o)
+ .ARM.attributes
+                0x00000295       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o)
+ .ARM.attributes
+                0x000002c9       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+ .ARM.attributes
+                0x000002fd       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_atan.o)
+ .ARM.attributes
+                0x00000331       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .ARM.attributes
+                0x00000365       0x22 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000387       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000003bb       0x22 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000003dd       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000411       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
+ .ARM.attributes
+                0x00000445       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000479       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+OUTPUT(build/rtos_imu.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x47a0
+ .debug_info    0x00000000      0x1df build/startup/startup_stm32f407.o
+ .debug_info    0x000001df      0x2f0 build/src/board.o
+ .debug_info    0x000004cf      0x229 build/src/clock.o
+ .debug_info    0x000006f8      0x927 build/src/cs_bench.o
+ .debug_info    0x0000101f      0x619 build/src/fault.o
+ .debug_info    0x00001638      0xb87 build/src/i2c.o
+ .debug_info    0x000021bf      0xd25 build/src/main.o
+ .debug_info    0x00002ee4      0x357 build/src/mpu6050.o
+ .debug_info    0x0000323b      0x6c2 build/src/os_sync.o
+ .debug_info    0x000038fd      0xe68 build/src/os.o
+ .debug_info    0x00004765       0x3b build/src/os_port.o
+
+.debug_abbrev   0x00000000     0x1929
+ .debug_abbrev  0x00000000      0x14c build/startup/startup_stm32f407.o
+ .debug_abbrev  0x0000014c      0x163 build/src/board.o
+ .debug_abbrev  0x000002af       0xf0 build/src/clock.o
+ .debug_abbrev  0x0000039f      0x363 build/src/cs_bench.o
+ .debug_abbrev  0x00000702      0x28f build/src/fault.o
+ .debug_abbrev  0x00000991      0x368 build/src/i2c.o
+ .debug_abbrev  0x00000cf9      0x319 build/src/main.o
+ .debug_abbrev  0x00001012      0x14a build/src/mpu6050.o
+ .debug_abbrev  0x0000115c      0x27d build/src/os_sync.o
+ .debug_abbrev  0x000013d9      0x52a build/src/os.o
+ .debug_abbrev  0x00001903       0x26 build/src/os_port.o
+
+.debug_loclists
+                0x00000000     0x16fc
+ .debug_loclists
+                0x00000000       0x46 build/startup/startup_stm32f407.o
+ .debug_loclists
+                0x00000046       0x8c build/src/board.o
+ .debug_loclists
+                0x000000d2       0x2c build/src/clock.o
+ .debug_loclists
+                0x000000fe      0x14d build/src/cs_bench.o
+ .debug_loclists
+                0x0000024b       0x8e build/src/fault.o
+ .debug_loclists
+                0x000002d9      0x5c3 build/src/i2c.o
+ .debug_loclists
+                0x0000089c      0x3ce build/src/main.o
+ .debug_loclists
+                0x00000c6a       0xd2 build/src/mpu6050.o
+ .debug_loclists
+                0x00000d3c      0x1d8 build/src/os_sync.o
+ .debug_loclists
+                0x00000f14      0x7e8 build/src/os.o
+
+.debug_aranges  0x00000000      0x2c0
+ .debug_aranges
+                0x00000000       0x28 build/startup/startup_stm32f407.o
+ .debug_aranges
+                0x00000028       0x38 build/src/board.o
+ .debug_aranges
+                0x00000060       0x20 build/src/clock.o
+ .debug_aranges
+                0x00000080       0x38 build/src/cs_bench.o
+ .debug_aranges
+                0x000000b8       0x40 build/src/fault.o
+ .debug_aranges
+                0x000000f8       0x40 build/src/i2c.o
+ .debug_aranges
+                0x00000138       0x40 build/src/main.o
+ .debug_aranges
+                0x00000178       0x28 build/src/mpu6050.o
+ .debug_aranges
+                0x000001a0       0x48 build/src/os_sync.o
+ .debug_aranges
+                0x000001e8       0xb0 build/src/os.o
+ .debug_aranges
+                0x00000298       0x28 build/src/os_port.o
+
+.debug_rnglists
+                0x00000000      0x50f
+ .debug_rnglists
+                0x00000000       0x19 build/startup/startup_stm32f407.o
+ .debug_rnglists
+                0x00000019       0x31 build/src/board.o
+ .debug_rnglists
+                0x0000004a       0x14 build/src/clock.o
+ .debug_rnglists
+                0x0000005e       0xca build/src/cs_bench.o
+ .debug_rnglists
+                0x00000128       0x44 build/src/fault.o
+ .debug_rnglists
+                0x0000016c       0xf0 build/src/i2c.o
+ .debug_rnglists
+                0x0000025c       0x87 build/src/main.o
+ .debug_rnglists
+                0x000002e3       0x1a build/src/mpu6050.o
+ .debug_rnglists
+                0x000002fd       0x62 build/src/os_sync.o
+ .debug_rnglists
+                0x0000035f      0x197 build/src/os.o
+ .debug_rnglists
+                0x000004f6       0x19 build/src/os_port.o
+
+.debug_macro    0x00000000     0x2540
+ .debug_macro   0x00000000       0x3d build/startup/startup_stm32f407.o
+ .debug_macro   0x0000003d      0xafc build/startup/startup_stm32f407.o
+ .debug_macro   0x00000b39      0x34e build/startup/startup_stm32f407.o
+ .debug_macro   0x00000e87      0x28b build/startup/startup_stm32f407.o
+ .debug_macro   0x00001112       0x3c build/src/board.o
+ .debug_macro   0x0000114e       0x1c build/src/board.o
+ .debug_macro   0x0000116a       0x3d build/src/clock.o
+ .debug_macro   0x000011a7       0x6c build/src/cs_bench.o
+ .debug_macro   0x00001213       0x1c build/src/cs_bench.o
+ .debug_macro   0x0000122f      0x190 build/src/cs_bench.o
+ .debug_macro   0x000013bf       0x52 build/src/cs_bench.o
+ .debug_macro   0x00001411      0x125 build/src/fault.o
+ .debug_macro   0x00001536       0x22 build/src/fault.o
+ .debug_macro   0x00001558       0x22 build/src/fault.o
+ .debug_macro   0x0000157a       0x75 build/src/fault.o
+ .debug_macro   0x000015ef       0x2a build/src/fault.o
+ .debug_macro   0x00001619       0x5c build/src/fault.o
+ .debug_macro   0x00001675       0x3c build/src/fault.o
+ .debug_macro   0x000016b1       0x34 build/src/fault.o
+ .debug_macro   0x000016e5       0x73 build/src/fault.o
+ .debug_macro   0x00001758      0x364 build/src/fault.o
+ .debug_macro   0x00001abc       0x16 build/src/fault.o
+ .debug_macro   0x00001ad2       0x4a build/src/fault.o
+ .debug_macro   0x00001b1c       0x34 build/src/fault.o
+ .debug_macro   0x00001b50       0x10 build/src/fault.o
+ .debug_macro   0x00001b60       0x58 build/src/fault.o
+ .debug_macro   0x00001bb8      0x1e5 build/src/fault.o
+ .debug_macro   0x00001d9d       0x10 build/src/fault.o
+ .debug_macro   0x00001dad       0x3c build/src/fault.o
+ .debug_macro   0x00001de9       0x67 build/src/i2c.o
+ .debug_macro   0x00001e50       0x22 build/src/i2c.o
+ .debug_macro   0x00001e72      0x16b build/src/main.o
+ .debug_macro   0x00001fdd       0xec build/src/main.o
+ .debug_macro   0x000020c9      0x285 build/src/main.o
+ .debug_macro   0x0000234e       0x28 build/src/main.o
+ .debug_macro   0x00002376       0x5e build/src/main.o
+ .debug_macro   0x000023d4       0x10 build/src/main.o
+ .debug_macro   0x000023e4       0x22 build/src/main.o
+ .debug_macro   0x00002406       0x45 build/src/mpu6050.o
+ .debug_macro   0x0000244b       0x58 build/src/mpu6050.o
+ .debug_macro   0x000024a3       0x3c build/src/os_sync.o
+ .debug_macro   0x000024df       0x61 build/src/os.o
+
+.debug_line     0x00000000     0x356d
+ .debug_line    0x00000000      0x18c build/startup/startup_stm32f407.o
+ .debug_line    0x0000018c      0x1ec build/src/board.o
+ .debug_line    0x00000378      0x21c build/src/clock.o
+ .debug_line    0x00000594      0x680 build/src/cs_bench.o
+ .debug_line    0x00000c14      0x4dc build/src/fault.o
+ .debug_line    0x000010f0      0x9ac build/src/i2c.o
+ .debug_line    0x00001a9c      0x6f0 build/src/main.o
+ .debug_line    0x0000218c      0x20a build/src/mpu6050.o
+ .debug_line    0x00002396      0x42d build/src/os_sync.o
+ .debug_line    0x000027c3      0xd2f build/src/os.o
+ .debug_line    0x000034f2       0x7b build/src/os_port.o
+
+.debug_str      0x00000000     0x8b52
+ .debug_str     0x00000000     0x8b52 build/startup/startup_stm32f407.o
+                               0x45be (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/board.o
+                               0x4633 (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/clock.o
+                               0x461b (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/cs_bench.o
+                               0x4ccf (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/fault.o
+                               0x7a5b (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/i2c.o
+                               0x4b11 (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/main.o
+                               0x8469 (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/mpu6050.o
+                               0x3f33 (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/os_sync.o
+                               0x4003 (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/os.o
+                               0x4d56 (size before relaxing)
+ .debug_str     0x00008b52        0x0 build/src/os_port.o
+                                 0x78 (size before relaxing)
+
+.comment        0x00000000       0x46
+ .comment       0x00000000       0x46 build/startup/startup_stm32f407.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046        0x0 build/src/board.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046        0x0 build/src/clock.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046        0x0 build/src/cs_bench.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046        0x0 build/src/fault.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046        0x0 build/src/i2c.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046        0x0 build/src/main.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046        0x0 build/src/mpu6050.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046        0x0 build/src/os_sync.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046        0x0 build/src/os.o
+                                 0x47 (size before relaxing)
+
+.debug_frame    0x00000000      0x884
+ .debug_frame   0x00000000       0x38 build/startup/startup_stm32f407.o
+ .debug_frame   0x00000038       0x58 build/src/board.o
+ .debug_frame   0x00000090       0x20 build/src/clock.o
+ .debug_frame   0x000000b0       0x8c build/src/cs_bench.o
+ .debug_frame   0x0000013c       0x78 build/src/fault.o
+ .debug_frame   0x000001b4       0xe0 build/src/i2c.o
+ .debug_frame   0x00000294       0xd8 build/src/main.o
+ .debug_frame   0x0000036c       0x54 build/src/mpu6050.o
+ .debug_frame   0x000003c0       0xb8 build/src/os_sync.o
+ .debug_frame   0x00000478      0x1fc build/src/os.o
+ .debug_frame   0x00000674       0x20 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_atan2.o)
+ .debug_frame   0x00000694       0x48 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_sqrt.o)
+ .debug_frame   0x000006dc       0x44 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_atan2.o)
+ .debug_frame   0x00000720       0x20 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+ .debug_frame   0x00000740       0x4c /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_atan.o)
+ .debug_frame   0x0000078c       0x20 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .debug_frame   0x000007ac       0x2c /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x000007d8       0x44 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000081c       0x20 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x0000083c       0x20 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x0000085c       0x28 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+
+.debug_line_str
+                0x00000000      0x145
+ .debug_line_str
+                0x00000000      0x145 build/src/os_port.o
+                                 0x4f (size before relaxing)
+ .debug_line_str
+                0x00000145        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                                 0xea (size before relaxing)
+ .debug_line_str
+                0x00000145        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                                 0xee (size before relaxing)
